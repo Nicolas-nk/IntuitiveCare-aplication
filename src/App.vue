@@ -1,28 +1,78 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="container">
+
+    <!--Cabeçalho com logo IntuitiveCare -->
+    <div id="logo" class="text-center">
+      <img src=".\assets\logo.png" alt="Intuitive Care">
+    </div>
+
+    <div id="main">
+      <div class="container">
+        
+        <div class="row justify-content-around">
+          <div class="col-md">
+           <h1 id="title">Relação de Operadoras Ativas ANS</h1>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.css";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	name: "App"
+};
 </script>
 
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#container{
+  background: #f1f1f1;
+}
+
+#logo{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+  background-color: #fff;
+  box-shadow: 0 5px 5px #a8a8a8;
+   -webkit-box-shadow: 0 5px 5px #a8a8a8;
+   -moz-box-shadow: 0 5px 5px #a8a8a8;
+}
+
+.container{
+  margin-top: 2em;
+  background-color: #fff;
+}
+
+#title{
+  font-size: 16pt;
+  font-weight: normal;
+  color: #5161F1;
 }
 </style>
