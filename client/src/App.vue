@@ -38,7 +38,7 @@
 <script>
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-import AppDataTable from "./components/csv-to-html-table-master/AppDataTable.vue";
+import AppDataTable from "./components/AppDataTable.vue";
 
 export default {
   name: "App",
