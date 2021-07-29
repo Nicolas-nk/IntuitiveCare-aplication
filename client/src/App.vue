@@ -1,34 +1,53 @@
 <template>
-  <div id="container">
+  <div id="container" style="background-color: #e6e6e6;">
     <!--Cabeçalho com logo IntuitiveCare -->
-    <div id="logo" class="text-center">
+    <div class="text-center pt-2 pb-3 bg-white" style="box-shadow: 0 5px 5px #a8a8a8;-webkit-box-shadow: 0 5px 5px #a8a8a8;-moz-box-shadow: 0 5px 5px #a8a8a8;">
       <img src=".\assets\logo.png" alt="Intuitive Care" />
     </div>
 
-    <div id="main">
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-md">
-            <h1 id="title">Relação de Operadoras Ativas ANS</h1>
-          </div>
-
-          <div class="col-md">
-            <div class="card">
-              <div class="card-body">
-              </div>
-            </div>
+    <div class="container">
+      <!--INICIO NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: 2em; margin-left: 0; margin-right:0;">
+        <div class="container-md">
+          <a class="navbar-brand">Relação de Operadoras Ativas ANS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <router-link class="nav-link" to="/">Listar Operadoras</router-link>
+              </li>
+              <li class="nav-item">
+                <router-link class="nav-link" to="/create-data">Criar Nova Operadora</router-link>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Pesquisar"
+                aria-label="Pesquisar"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Pesquisar
+              </button>
+            </form>
           </div>
         </div>
+      </nav>
+      <!-- FIM NAVBAR -->
 
-        <div class="row justify-content-center">
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <AppDataTable></AppDataTable>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="container pt-5  bg-white">
+        <router-view></router-view>
       </div>
     </div>
   </div>
@@ -38,40 +57,12 @@
 <script>
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
-import AppDataTable from "./components/AppDataTable.vue";
 
 export default {
   name: "App",
-  components: {
-    AppDataTable,
-  },
+  components: {},
 };
 </script>
 
 
-<style>
-#container {
-  background: #f1f1f1;
-}
-
-#logo {
-  padding-top: 0.6em;
-  padding-bottom: 0.6em;
-
-  background-color: #fff;
-  box-shadow: 0 5px 5px #a8a8a8;
-  -webkit-box-shadow: 0 5px 5px #a8a8a8;
-  -moz-box-shadow: 0 5px 5px #a8a8a8;
-}
-
-.container {
-  margin-top: 2em;
-  background-color: #fff;
-}
-
-#title {
-  font-size: 16pt;
-  font-weight: normal;
-  color: #5161f2;
-}
-</style>
+<style></style>
