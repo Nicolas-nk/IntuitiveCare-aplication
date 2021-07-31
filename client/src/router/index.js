@@ -9,17 +9,17 @@ const routes = [
     {
         path: '/',
         name: 'home',
-        component: () => import('../components/list-data/ListDataComponent'),
+        component: () => import('../components/pages/list-data/ListDataComponent'),
     },
     {
         path: '/create-data',
         name: 'create',
-        component: () => import('../components/create-data/CreateDataComponent'),
+        component: () => import('../components/pages/create-data/CreateDataComponent'),
     },
     {
         path: '/edit-data/:id',
         name: 'update',
-        component: () => import('../components/edit-data/EditDataComponent'),
+        component: () => import('../components/pages/edit-data/EditDataComponent'),
     },
 ];
 
@@ -28,7 +28,7 @@ const router = new VueRouter({
     base: process.env.BASE_URL,
     routes,
   });
-  
+
   router.beforeResolve((to, from, next) => {
     if (to.name) {
       // Quando houver carregamento de uma página inicial, então usar o NProgress:
@@ -36,10 +36,10 @@ const router = new VueRouter({
     }
     next();
   });
-  
+
   router.afterEach((to, from) => {
     // Completando a animação da rota do NProgress
     NProgress.done();
   });
-  
+
   export default router;

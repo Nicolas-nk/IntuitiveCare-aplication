@@ -1,0 +1,21 @@
+CREATE TABLE OPERADORAS(
+	registro_ans INT PRIMARY KEY,
+	cnpj VARCHAR(20)NOT NULL,
+	razao_social VARCHAR(255)NOT NULL,
+	nome_fantasia VARCHAR(100),
+	modalidade VARCHAR(50)NOT NULL,
+	logradouro VARCHAR(255)NOT NULL,
+	numero VARCHAR(10)NOT NULL,
+	complemento VARCHAR(80),
+	bairro VARCHAR(60)NOT NULL,
+	cidade VARCHAR(60)NOT NULL,
+	uf VARCHAR(2)NOT NULL,
+	cep VARCHAR(10)NOT NULL,
+	ddd VARCHAR(5)NOT NULL,
+	telefone VARCHAR(15)NOT NULL,
+	fax VARCHAR(15),
+	e_mail VARCHAR(80)NOT NULL,
+	representante VARCHAR(100)NOT NULL,
+	cargo_representante VARCHAR(50)NOT NULL,
+	data_registro DATE NOT NULL
+);

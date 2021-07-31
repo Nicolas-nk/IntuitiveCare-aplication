@@ -1,9 +1,7 @@
-const { ApolloServer } = require("apollo-server");
-const app = require('./app');
+const app = require('./src/app');
 
+const port = process.env.PORT || 3000;
 
-console.log(ApolloServer);
-
-app.listen(8080, () =>{
-  console.log("Servidor iniciado na porta 8080.");
+app.listen(port, () => {
+  console.log('Aplicação sendo executada na porta:', port);
 });
