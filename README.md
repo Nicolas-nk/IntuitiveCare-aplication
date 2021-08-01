@@ -4,7 +4,7 @@
 
 ## 💻 Sobre
 
-Aplicação CRUD para controle de operadoras ativas da Agência Nacional de Saúde, realizado a fins de teste de nivelamento técnico do processo seletivo para a vaga Front-End Web Developer Intern.
+Aplicação CRUD para controle de operadoras ativas da Agência Nacional de Saúde, realizado a fim de teste de nivelamento técnico do processo seletivo para a vaga Front-End Web Developer Intern.
 
 ## 🛠 Tecnologias
 
@@ -16,7 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * **[Postman](https://www.getpostman.com/)**
 * **[PostgreSQL - PgAdmin](https://www.postgresql.org/download/)**
 
-E algumas dependências para desing como:
+E algumas dependências de desing como:
 
 * **[Bootstrap](https://getbootstrap.com.br/)**
 * **[Font Awesome](https://fontawesome.com/)**
@@ -98,7 +98,7 @@ $ npm run start
   <img alt="FormValidation" title="Validação de formúlario" src="./client/src/assets/prints/FormValidation.png" width="400px">
 </p>
 
-### Create - pagina inicial
+### Read - pagina inicial
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Create" title="Adicionar Operadora" src="./client/src/assets/prints/View1.png" width="400px">
