@@ -1,6 +1,6 @@
 # Relação Operadoras Ativas ANS
 
-## Aplicação CRUD para IntuitiveCare
+Aplicação CRUD para IntuitiveCare
 
 ## Começando
 ```
