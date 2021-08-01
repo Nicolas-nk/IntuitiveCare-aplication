@@ -1,24 +1,24 @@
 # Relação Operadoras Ativas ANS
 
-## Project setup
+## Aplicação CRUD para IntuitiveCare
+
+## Começando
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Para Iniciar digite no terminal dentro do repositório:
 ```
+cd client
 npm run serve
 ```
-
-### Compiles and minifies for production
+### E em outro terminal digite:
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+cd serve
+npm run dev
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Nicolas Messias
