@@ -59,7 +59,7 @@
             <input
               type="text"
               id="razao_social"
-              name="razao_socials"
+              name="razao_social"
               class="form-control"
               placeholder="Razão Social"
               v-model="dataForm.razao_social"
