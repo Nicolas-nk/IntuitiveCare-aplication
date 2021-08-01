@@ -35,7 +35,7 @@ Podemos considerar este projeto como sendo divido em duas partes:
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/?WT.
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/?WT.mc_id=javascript-9652-gllemos)
 
 ### 🎲 Rodando o Back End (servidor)
 
@@ -78,8 +78,7 @@ $ npm run start
 
 # O servidor inciará na porta:8080 - o seguinte aviso aparecerá: 
 #App running at:
-#  - Local:   http://localhost:8080/0/                               8:8080/
-#  - Network: http://192.168.15.148:8080/    
+#  - Local:   http://localhost:8080/
 ```
 ## 🧩 Funcionalidades e layout
 
@@ -132,4 +131,4 @@ $ npm run start
 
 ## 📝 Ass
 
-Feito com ❤️ por Nicolas Messias 👋🏽 [Entre em contato!](linkedin.com/in/nicolas-messias)
+Feito com ❤️ por Nicolas Messias 👋🏽 [Entre em contato!](https://www.linkedin.com/in/nicolas-messias/)
