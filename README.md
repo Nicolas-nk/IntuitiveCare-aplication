@@ -34,8 +34,8 @@ Podemos considerar este projeto como sendo divido em duas partes:
 
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js][nodejs]. 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/?WT.
 
 ### 🎲 Rodando o Back End (servidor)
 
@@ -60,8 +60,6 @@ $ npm run dev
 ```
 ### 🧭 Rodando a aplicação web (Front End)
 
-🚧 Em construção... 🚧
-
 ```bash
 # Clone este repositório
 $ git clone https://github.com/tgmarinho/nlw1
@@ -85,10 +83,10 @@ $ npm run start
 ```
 ## 🧩 Funcionalidades e layout
 
-C - Create (criar)
-R - Read (ler)
-U - Update (Atualizar)
-D - Delete (Deletar)
+* C - Create (criar)
+* R - Read (ler)
+* U - Update (Atualizar)
+* D - Delete (Deletar)
 
 ### Create
 
@@ -132,6 +130,6 @@ D - Delete (Deletar)
 * Implementação de pesquisa textual
 
 
-## Ass.
+## 📝 Ass
 
 Feito com ❤️ por Nicolas Messias 👋🏽 [Entre em contato!](linkedin.com/in/nicolas-messias)
