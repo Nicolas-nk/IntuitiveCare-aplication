@@ -4,7 +4,15 @@ Aplicação CRUD para IntuitiveCare
 
 ## Começando
 ```
+cd client
 npm install
+
+```
+
+```
+cd server
+npm install
+
 ```
 
 ### Para Iniciar digite no terminal dentro do repositório:
