@@ -125,7 +125,7 @@ $ npm run start
 
 ## ⏱  Atualizações por vim
 
-* Concertar bug de atualização de dados
+* Consertar bug de atualização de dados
 * Implementação de pesquisa textual
 
 
