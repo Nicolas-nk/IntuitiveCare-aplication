@@ -16,7 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * **[Postman](https://www.getpostman.com/)**
 * **[PostgreSQL - PgAdmin](https://www.postgresql.org/download/)**
 
-E algumas dependências de desing como:
+E algumas dependências de design como:
 
 * **[Bootstrap](https://getbootstrap.com.br/)**
 * **[Font Awesome](https://fontawesome.com/)**
